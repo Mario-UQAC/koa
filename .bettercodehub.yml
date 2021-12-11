@@ -1,0 +1,6 @@
+languages:
+- javascript
+test:
+    include:
+      - /__tests__/.*
+      - /test-helpers/.*
