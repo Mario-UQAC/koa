@@ -1,7 +1,11 @@
 component_depth: 1
 languages:
 - name: javascript
+    production:
+        exclude:
+            - __tests__/.*
+            - test-helpers/.*
     test:
         include:
-            - /__tests__/.*\.js
-            - /test-helpers/.*\.js
+            - __tests__/.*
+            - test-helpers/.*
