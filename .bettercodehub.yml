@@ -3,9 +3,9 @@ languages:
 - name: javascript
     production:
         exclude:
-            - __tests__/.*
-            - test-helpers/.*
+            - /__tests__/.*
+            - /test-helpers/.*
     test:
         include:
-            - __tests__/.*
-            - test-helpers/.*
+            - /__tests__/.*
+            - /test-helpers/.*
