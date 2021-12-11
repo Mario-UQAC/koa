@@ -1,6 +1,7 @@
+component_depth: 1
 languages:
-- javascript
-test:
-    include:
-      - /__tests__/.*
-      - /test-helpers/.*
+- name: javascript
+    test:
+        include:
+            - /__tests__/.*\.js
+            - /test-helpers/.*\.js
